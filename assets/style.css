@@ -1,0 +1,221 @@
+body {
+    font-family:'Open sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+main p {
+    padding: 20px;
+}
+.immagini {
+    margin:0 auto;
+}
+.immagini p {
+    padding:20px;
+    
+}
+.immagini div img {
+    width:100%;
+    padding:10px 0 10px 10px;
+}
+.row .col-md-4 {
+    padding:0;
+}
+.row  {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin: 0 auto;
+}
+
+.rettangolo1 {
+    background-color: pink;
+    padding: 30px 50px 10px 50px;
+    transform: skew(-5deg);
+    width:80%;
+    margin:0 auto;
+}
+
+.rettangolo2 {
+    background-color: lemonchiffon;
+    padding: 30px 50px 10px 50px;
+    transform: skew(-5deg);
+    width:80%;
+    margin:0 auto;
+}
+.rettangolo3 {
+    background-color: lightgreen;
+    padding: 30px 50px 10px 50px;
+    transform: skew(-5deg);
+    width:80%;
+    margin:0 auto;
+}
+button {
+    background-color: deepskyblue;
+    color:whitesmoke;
+    border:none;
+    
+}
+ol li:nth-of-type(1){
+    padding-top:10px;
+}
+ol li:nth-of-type(4){
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-md-4 div ol li {
+    list-style: none;
+    text-align: left;
+}
+
+.rettangolo1 strong {
+    font-size: 40px;
+}
+.rettangolo2 strong {
+    font-size: 40px;
+}
+.rettangolo3 strong {
+    font-size: 40px;
+}
+.rettangolo1 h2, .rettangolo2 h2, .rettangolo3 h2 {
+    font-size: 21px;
+}
+
+.rettangolo1 p {
+    display: inline-block;
+    display:flex;
+    justify-content:start;
+    position:relative;
+    padding:10px;
+    
+}
+.rettangolo1 p span {
+    padding-top:20px;
+    font-size: 15px;
+}
+.rettangolo2 p {
+    display: inline-block;
+    display:flex;
+    justify-content:end;
+    position:relative;
+    padding:10px;
+}
+.rettangolo2 p span {
+    padding-top:20px;
+    font-size: 15px;
+}
+.rettangolo3 p {
+    display: inline-block;
+    display:flex;
+    justify-content:start;
+    padding-top:10px;
+}
+.rettangolo3 p span {
+    padding-top:20px;
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    padding:10px;
+}
+
+@media only screen and (min-width:800px){
+
+main p {
+    font-size: 17px;
+    padding: 30px 20px 30px 70px;
+}
+
+.immagini {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.immagini div {
+    width: 50%;
+}
+
+.immagini div img {
+    width:80%;
+}
+
+.row {
+    margin-top: 40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:unset;
+}
+.col-md-4 .rettangolo3, .col-md-4 .rettangolo1, .col-md-4 .rettangolo2 {
+    width:min-content;
+}
+
+.rettangolo1 {
+    background-color: pink;
+    padding: 30px 90px 10px 90px;
+}
+
+.rettangolo2 {
+    background-color: lemonchiffon;
+    padding: 30px 90px 10px 90px;
+}
+.rettangolo3 {
+    background-color: lightgreen;
+    padding: 30px 90px 10px 90px;
+}
+
+.row .col-md-4 ol li {
+    text-align: left;
+}
+
+.rettangolo1 p {
+    padding:10px;
+    width:170px;
+}
+.rettangolo2 p {
+    padding:10px;
+    width:170px;
+}
+.rettangolo3 p {
+    padding:10px;
+    width:170px;
+}
+.rettangolo1 p span, .rettangolo2 p span, .rettangolo3 p span {
+    font-size: 12px;
+}
+}
+.rettangolo1 {
+    width:100%;
+}
+.rettangolo2 {
+    width:100%;
+}
+.rettangolo3 {
+    width:100%;
+}
+
+ footer {
+    margin-top: 40px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer div {
+    width: 31%;
+}
+footer h4 {
+    font-size:20px;
+}
+footer p {
+    font-size: 14px;
+}
+
+}

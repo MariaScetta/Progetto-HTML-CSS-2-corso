@@ -1,0 +1,148 @@
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+.imgsfondo {
+    padding: 20px 25px 20px 25px;
+    background-image: url(images/images/banner.jpg);
+    background-size: 100%;
+}
+.imgsfondo p {
+    font-size: 13px;
+    color:white;
+    text-shadow: 2px 2px #000000;
+    
+}
+.imgsfondo h1{
+    font-size: 20px;
+    color:white;
+    text-shadow: 2px 2px #000000;
+}
+.imgsfondo button {
+    border-radius: 5%;
+    background-image: linear-gradient(to right, grey, dodgerblue);
+    color:white;
+    border:none;
+    margin:5px;
+}
+
+.perche{
+    padding:25px;
+}
+.perche h2{
+    font-size: 20px;
+}
+.domande {
+    padding-top:20px;
+}
+.risposte h3 {
+    font-size: 15px;
+}
+.risposte p {
+    font-size: 12px;
+}
+.risposte p {
+    font-size: 12px;
+}
+
+.futuro {
+    text-align: center;
+    background-color: dodgerblue;
+    color:whitesmoke;
+    padding: 50px;
+}
+
+section {
+    padding:25px 25px 0 25px;
+}
+
+section div img {
+    width:100%;
+}
+
+footer {
+    margin-top: 50px;
+    padding:10px;
+    font-size: 12px;
+}
+.fa-check-circle{
+    font-family: 'FontAwesome';
+}
+
+footer div {
+    margin:10px;
+}
+
+
+@media only screen and (min-width:700px) {
+    .imgsfondo {
+        padding:90px 150px 50px 150px;
+        margin:0;
+        background-size:cover;
+        height:400px;
+    }
+    .imgsfondo h1 {
+        font-size: 60px;
+        
+    }
+    .imgsfondo p {
+        font-size: 17px;
+    }
+    .perche {
+        text-align: center;
+        padding-top:40px;
+    }
+
+    .perche h2 {
+        font-size: 35px;
+    }
+    .perche p:first-of-type {
+        margin-bottom:40px;
+    }
+    
+    .risposte {
+        padding:0 40px;
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+
+    .risposte h3 {
+        font-size: 20px;
+    }
+    .risposte p {
+        font-size: 15px;
+    }
+    .risposte div {
+        width:31%;
+    }
+    section {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section div {
+        width:45%;
+        padding:30px;
+    }
+
+    footer {
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    footer h4 {
+        font-size:20px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+
+    footer div {
+        width: 31%;
+    }
+}
